@@ -1,4 +1,19 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-brand-green: #22c55e;
+  --color-brand-emerald: #10b981;
+  --color-brand-gold: #f59e0b;
+  --color-brand-purple: #8b5cf6;
+  --color-navy: #0a0f1e;
+  --color-navy-light: #131929;
+  --color-navy-card: #1a2035;
+  --color-navy-border: rgba(255,255,255,0.08);
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
 
 @theme {
   --color-brand-green: #22c55e;
